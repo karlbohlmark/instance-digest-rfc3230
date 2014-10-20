@@ -1,4 +1,6 @@
-module.exports = digest;
+var crypto = require("crypto")
+
+module.exports = instanceDigest;
 module.exports.setDigestHeader = setDigestHeader;
 
 var sha256 = {
@@ -35,7 +37,7 @@ function algorithmNodeName (nodeOrHeaderAlgorithmName) {
 function messageDigest (body, algorithm) {
 	var alg = ensureValidAlgorithm(algorithm)
     var hash = crypto.createHash(alg.nodeName);
-    hash.update(str);
+    hash.update(body);
     return hash.digest("base64");
 }
 
