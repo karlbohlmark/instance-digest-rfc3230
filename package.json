@@ -1,6 +1,6 @@
 {
   "name": "instance-digest-rfc3230",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculate instance digests, apply to requests",
   "main": "index.js",
   "scripts": {
