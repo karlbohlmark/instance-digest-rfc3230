@@ -5,7 +5,7 @@ Generate instance digests in node in compliance with http://tools.ietf.org/html/
 
 ## API
 
-instanceDigest(body, algorithm)
+### instanceDigest(body, algorithm)
 Calculate instance digest header value given body and algorithm
 Example:
 ```
