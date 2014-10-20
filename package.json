@@ -1,0 +1,11 @@
+{
+  "name": "instance-digest-rfc3230",
+  "version": "1.0.0",
+  "description": "Calculate instance digests, apply to requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karl Böhlmark <karl.bohlmark@gmail.com>",
+  "license": "ISC"
+}
